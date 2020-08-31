@@ -1,0 +1,45 @@
+table,
+th,
+td {
+	border: 1px solid black;
+}
+table {
+	background-color:  	#ffffee;
+	border-collapse: collapse;
+	margin: 1em auto;
+}
+td {
+	font-size: 4vh;
+	text-align: center;
+	vertical-align: center;
+	height: 10vw;
+	width: 10vw;
+}
+td:first-child {
+	border-left: solid;
+}
+td:nth-child(3n) {
+	border-right: solid;
+}
+tr:first-child {
+	border-top: solid;
+}
+tr:nth-child(3n) td {
+	border-bottom: solid;
+}
+div {
+	text-align: center;
+}
+input {
+	font-size: 4vh;
+	width: 97%;
+	border: none;
+	text-align: center;
+	background-color:  	#ffffee;
+}
+@media only screen and (min-width: 600px) {
+  td {
+    height: 8vh;
+    width: 8vh;
+  }
+}
